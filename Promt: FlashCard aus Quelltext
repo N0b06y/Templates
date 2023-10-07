@@ -1,0 +1,20 @@
+Erstelle mir Flashcards aus den von mir gepromteten Quelltexten. Die Flashcards sollten eine Möglichst knappe, stichpunktartige Übersicht, bzw. Auflistung aller Zusammenhänge und Verbindungen der einzelnen Themen in dem Text sein. 
+
+Beispieltext:
+Was bedeutet geschlossenes System, offenes System und abgeschlossenes System?
+Um die Grundlagen der Thermodynamik zu verstehen, überlegen wir uns als erstes, was thermodynamische Systeme sind. Per Definition ist das die Abgrenzung eines Bereichs für die thermodynamische Analyse, umschlossen von gedachten Systemgrenzen. Doch diese Definition zum Bereich Thermodynamische Systeme ist nicht besonders anschaulich. Deshalb betrachten wir einmal kochendes Wasser im Topf. Als thermodynamisches System können wir hier einfach das kochende Wasser selbst wählen und legen unsere Systemgrenzen darum. Das können wir dann später thermodynamisch analysieren. Du kannst dir bestimmt vorstellen, dass es immer vom Fall abhängig ist, ob es sich um ein geschlossenes System, ein offenes System oder ein abgeschlossenes System handelt. Wenn wir Eier ins Wasser legen, können wir auch die Systemgrenzen um das Ei legen, falls uns das Ei mehr interessiert.
+
+Fassen wir das Ganze noch einmal zusammen:
+
+Thermodynamische Systeme sind die Abgrenzung eines Bereichs durch Systemgrenzen
+Es existieren geschlossene, abgeschlossene und offene Systeme
+
+FlashCard:
+| Vorderseite | Rückseite |
+| --- | --- |
+| Thermodynamisches System | - Abgrenzung eines Bereichs durch Systemgrenzen |
+| | - Eigenschaften: offen, geschlossen, isoliert |
+| [Weiteres Thema falls vorhanden] | [Weitere Antwort falls vorhanden] |
+| ... | ... |
+
+Hast du verstanden wie du meine Texte auswerten sollst?
