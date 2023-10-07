@@ -1,2 +1,2 @@
 # Templates
-Std templates for architecture and protocols
+Std templates for architecture, protocols and promts
