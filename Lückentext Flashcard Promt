@@ -1,0 +1,49 @@
+- Cloze deletion flashcards *Full Prompt* (radiology example):
+    - *To get the formatting for the table to copy in the prompt, you need to copy it from the Notion source of this webpage.  (URL link at the top of this page)*
+    
+    I would like you to review a source text focusing on relevant information for diagnosing diseases using imaging studies. Please exclude trivia and statistics and concentrate on imaging features of diseases, unique imaging findings, and methods of differentiating similar disease entities. Condense the information into concise and direct statements using Anki cloze deletion mark-up. 
+    
+    Format your responses into a table with a single column, where each row is a single statement written in **Anki cloze deletion mark-up**.  
+    
+    Reference the following criteria while generating each statement:
+    
+    - Each statement should contain no more than 2 cloze deletions
+    - Limit word count of each statement to **less than 40 words**.  
+    - Keep the text within the cloze deletions limited to **only one key word**. For example, with the response "Blood flow through the complex of vascular spaces in cavernous hemangiomas is very {{c1::slow}}, resulting in {{c2::prolonged retention of contrast agents on CT}}." I would prefer it to be "Blood flow through the complex of vascular spaces in cavernous hemangiomas is very {{c1::slow}}, resulting in {{c2::prolonged retention}} of contrast agents on CT.”
+    - Each statement must be understood in isolation. Include the subject of the statement somewhere in the text. Each statement will become a flashcard and each flashcard will be reviewed in a random order and combined with other flashcards covering totally different topics.
+    
+    Here is an example of what I want you to do:
+    
+    Example Source Text:
+    
+    Cavernous hemangioma is the second most common focal mass lesion in the liver, exceeded in frequency only by metastases. It is the most common benign liver neoplasm, found in up to 7% of individuals. Cavernous hemangiomas are often discovered incidentally during hepatic imaging by ultrasonography or CT. They may be found at any age and are more common in women. Although most are solitary, 10% of affected patients have multiple lesions that may be mistaken for metastases. The tumors consist of large, thin-walled, blood-filled vascular spaces lined by epithelium and separated by fibrous septa. Blood flow through the complex of vascular spaces is very slow, resulting in characteristic prolonged retention of contrast agents on CT. Most lesions are less than 5 cm in size, are asymptomatic, and pose no threat to the patient. The lesions carry no risk of malignant transformation. Larger giant cavernous hemangiomas (20 cm and larger) may cause symptoms due to a pressure effect, hemorrhage, or arteriovenous shunting. About 90% of lesions show classic features on CT.  On unenhanced CT, a hemangioma appears as a well-defined hypodense mass of the same attenuation as other blood-filled spaces, such as the IVC and portal vein. Isoattentuation with blood vessels is an important diagnostic finding.  Postcontrast arterial-phase images show early, peripheral, discontinuous nodules of contrast enhancement equal in density to that of the aorta (Fig. 11-31).  Venous-phase images show progressive filling enhancement from the periphery, with the lesion eventually becoming uniformly enhanced.  Delayed images show prolonged enhancement due to the characteristic slow washout of contrast agent.  Contrast enhancement usually persists within the lesion for 20 to 30 minutes after contrast injection.  Because blood flow is slow through the lesion, thrombosis may occur, leading to irregular areas of fibrosis that remain unenhanced through postcontrast CT phases. Occasionally these fibrotic portions of the lesion may show particulate or dense calcification.  Small hemangiomas, especially those <1cm, may show immediate homogeneous enhancement during the arterial phase, mimicking HCC and hypervascular metastases. Differentiation is made by observing the slow washout and persistent enhancement during portal venous and delayed phases that is characteristic of hemangioma but not of other hypervascular tumors.  Most hemangiomas remain stable in size over time.
+    
+    Example ChatBot Response:
+        
+        
+        | Statement |
+        | --- |
+        | Cavernous hemangioma is the {{c1::second most common}} focal mass lesion in the liver, exceeded in frequency only by {{c2::metastases}}. |
+        | Cavernous hemangioma is the most common {{c1::benign liver neoplasm}}, found in up to 7% of individuals. |
+        | Cavernous hemangiomas are often discovered incidentally during hepatic imaging by {{c1::ultrasonography}} or {{c2::CT}}. |
+        | Cavernous hemangiomas may be found at {{c1::any age}} and are more common in {{c2::women}}. |
+        | 10% of affected patients with cavernous hemangiomas have {{c1::multiple lesions}} that may be mistaken for {{c2::metastases}}. |
+        | Cavernous hemangiomas consist of large, thin-walled, blood-filled {{c1::vascular spaces}} lined by {{c2::epithelium}} and separated by fibrous septa. |
+        | Blood flow through the complex of vascular spaces in cavernous hemangiomas is very {{c1::slow}}, resulting in {{c2::prolonged retention}} of contrast agents on CT. |
+        | Most cavernous hemangiomas are less than 5 cm in size, {{c1::asymptomatic}}, and pose no threat to the patient. |
+        | Larger giant cavernous hemangiomas (20 cm and larger) may cause symptoms due to a pressure effect, {{c1::hemorrhage}}, or {{c2::arteriovenous shunting}}. |
+        | About 90% of cavernous hemangiomas show {{c1::classic features}} on CT. |
+        | On unenhanced CT, a hemangioma appears as a well-defined hypodense mass of the same attenuation as other {{c1::blood-filled spaces}}, such as the {{c2::IVC}} and {{c2::portal vein}}. |
+        | Postcontrast arterial-phase images show early, peripheral, discontinuous nodules of {{c1::contrast enhancement}} equal in density to that of the {{c2::aorta}}. |
+        | Venous-phase images show progressive filling enhancement from the periphery, with the lesion eventually becoming uniformly {{c1::enhanced}}. |
+        | Delayed images show {{c1::prolonged enhancement}} due to the characteristic slow washout of contrast agent in cavernous hemangiomas. |
+        | Contrast enhancement usually persists within the lesion for {{c1::20 to 30 minutes}} after contrast injection in cavernous hemangiomas. |
+        | Thrombosis may occur in cavernous hemangiomas due to slow blood flow, leading to irregular areas of {{c1::fibrosis}} that remain unenhanced through postcontrast CT phases. |
+        | Occasionally, fibrotic portions of the lesion in cavernous hemangiomas may show particulate or dense {{c1::calcification}}. |
+        | Small hemangiomas, especially those <1cm, may show immediate homogeneous enhancement during the arterial phase, mimicking {{c1::HCC}} and {{c2::hypervascular metastases}}. |
+        | Differentiation between small hemangiomas and HCC or hypervascular metastases is made by observing the slow washout and persistent enhancement during {{c1::portal venous and delayed phases}} that is characteristic of hemangioma. |
+        | Most cavernous hemangiomas remain {{c1::stable}} in size over time. |
+        
+        Do you understand the prompt?
+        
+        (You then submit the text you would like it to reference as a second prompt)
